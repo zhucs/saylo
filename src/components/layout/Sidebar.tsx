@@ -1,6 +1,6 @@
 import React from "react";
 import { FaUser, FaCog, FaChartBar } from "react-icons/fa";
-import useIsLargeScreen from "../hooks/useIsLargeScreen"; // Import the custom hook
+import useIsLargeScreen from "../../hooks/useIsLargeScreen"; // Import the custom hook
 
 const Sidebar: React.FC = () => {
   const isLargeScreen = useIsLargeScreen();

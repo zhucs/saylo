@@ -1,5 +1,5 @@
 import React from "react";
-import TopicCard from "../pages/Home/TopicCard";
+import TopicCard from "../../pages/Home/TopicCard";
 
 const topics = [
   { title: "Counterexpectation", items: ["Better than I thought", "Big ass truck", "Not necessarily..."] },
