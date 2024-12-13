@@ -11,16 +11,16 @@ const LandingPage = () => {
   };
 
   return (
-    <div className="relative min-h-screen bg-gradient-to-br from-purple-100 to-pink-200 overflow-hidden flex items-center justify-center px-8">
+    <div className="relative min-h-screen bg-gradient-to-br font-primary from-purple-100 to-pink-200 overflow-hidden flex items-center justify-center px-8">
       {/* Elliptical Background */}
       <div className="absolute inset-0 bg-purple-200/50 rounded-full w-[200%] h-[200%] top-[-50%] left-[-50%] clip-ellipse"></div>
 
       {/* Main Content */}
       <div className="relative z-10 bg-white rounded-lg shadow-2xl p-10 max-w-lg w-full text-center">
-        <h1 className="text-6xl font-bold text-purple-700 font-[Fredoka] mb-4">
+        <h1 className="text-6xl font-bold text-purple-700 mb-4">
           Saylo!
         </h1>
-        <h2 className="text-2xl font-semibold text-black font-[Fredoka] mb-8">
+        <h2 className="text-2xl font-semibold text-black mb-8">
           Learn to speak Spanish like a native.
         </h2>
 
@@ -28,14 +28,14 @@ const LandingPage = () => {
         <input
           type="text"
           placeholder="Username"
-          className="block w-[90%] mx-auto px-4 py-2 mb-3 text-xl text-gray-800 font-medium font-[Fredoka] border border-purple-400 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-600"
+          className="block w-[90%] mx-auto px-4 py-2 mb-3 text-xl text-gray-800 font-medium border border-purple-400 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-600"
         />
 
         {/* Password Input */}
         <input
           type="text"
           placeholder="Password"
-          className="block w-[90%] mx-auto px-4 py-2 mb-6 text-xl text-gray-800 font-medium font-[Fredoka] border border-purple-400 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-600 password-input"
+          className="block w-[90%] mx-auto px-4 py-2 mb-6 text-xl text-gray-800 font-medium border border-purple-400 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-600 password-input"
           onInput={(e) => {
             const input = e.target as HTMLInputElement;
             input.value = input.value.replace(/./g, "●");
