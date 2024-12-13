@@ -1,7 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom"; // Import useNavigate
 import { FaGoogle, FaApple } from "react-icons/fa";
-import PrimaryButton from "../../components/PrimaryButton";
+import PrimaryButton from "../../components/{ui}/PrimaryButton";
 
 const LandingPage = () => {
   const navigate = useNavigate(); // Hook for navigation

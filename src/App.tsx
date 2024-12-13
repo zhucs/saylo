@@ -1,8 +1,8 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import HomePage from "./pages/HomePage/HomePage";
-import LandingPage from "./pages/LandingPage/LandingPage";
-import LessonPage from "./pages/LessonPage/LessonPage"; // Placeholder for the lesson page
+import HomePage from "./pages/Home/HomePage";
+import LandingPage from "./pages/Landing/LandingPage";
+import LessonPage from "./pages/Lesson/LessonPage"; // Placeholder for the lesson page
 
 const App = () => {
   return (

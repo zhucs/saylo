@@ -1,6 +1,6 @@
 import React from "react";
 import { FaUser, FaCog, FaChartBar } from "react-icons/fa";
-import useIsLargeScreen from "../../hooks/useIsLargeScreen"; // Import the custom hook
+import useIsLargeScreen from "../hooks/useIsLargeScreen"; // Import the custom hook
 
 const Sidebar: React.FC = () => {
   const isLargeScreen = useIsLargeScreen();
@@ -46,17 +46,15 @@ const Sidebar: React.FC = () => {
       </div>
 
       {/* Bottom Section */}
-      <div className="w-full flex flex-col items-center lg:items-start">
-        <div className="flex flex-col items-center lg:items-start text-black space-y-1 w-full">
-          <div className="text-md font-bold font-[Fredoka] text-center w-full">
-            About
-          </div>
-          <div className="text-md font-bold font-[Fredoka] text-center w-full">
-            Terms
-          </div>
-          <div className="text-md font-bold font-[Fredoka] text-center w-full">
-            Privacy
-          </div>
+      <div className="w-full flex flex-col items-center justify-center space-y-2">
+        <div className="text-md font-bold font-[Fredoka] hover:bg-purple-200 hover:text-purple-700 cursor-pointer focus:outline focus:outline-purple-500 text-center">
+          About
+        </div>
+        <div className="text-md font-bold font-[Fredoka] hover:bg-purple-200 hover:text-purple-700 cursor-pointer focus:outline focus:outline-purple-500 text-center">
+          Terms
+        </div>
+        <div className="text-md font-bold font-[Fredoka] hover:bg-purple-200 hover:text-purple-700 cursor-pointer focus:outline focus:outline-purple-500 text-center">
+          Privacy
         </div>
       </div>
     </div>
