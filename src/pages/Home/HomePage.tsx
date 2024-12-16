@@ -1,12 +1,12 @@
 import React from "react";
 import Sidebar from "../../components/layout/Sidebar";
-import MainContent from "../../components/layout/MainContent";
+import HomeContent from "./HomeContent";
 
 const HomePage = () => {
   return (
     <div className="flex h-screen">
       <Sidebar />
-      <MainContent />
+      <HomeContent />
     </div>
   );
 };
